@@ -425,3 +425,51 @@
     }
 
 }
+
+.viewer-inline-error {
+
+    display: grid;
+
+    gap: .45rem;
+
+    padding: 1rem 1.1rem;
+
+    border-radius: 16px;
+
+    border: 1px solid rgba(239, 68, 68, .22);
+
+    background: rgba(127, 29, 29, .14);
+
+    backdrop-filter: blur(12px);
+
+}
+
+.viewer-inline-error strong {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: .5rem;
+
+    margin: 0;
+
+    color: #fecaca;
+
+    font-size: .92rem;
+
+    font-weight: 600;
+
+}
+
+.viewer-inline-error p {
+
+    margin: 0;
+
+    color: var(--text-secondary);
+
+    font-size: .95rem;
+
+    line-height: 1.6;
+
+}

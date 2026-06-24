@@ -16,6 +16,24 @@ import {
 
 register(
 
+    "error",
+
+    payload => {
+
+        emit(
+
+            "viewer:error",
+
+            payload
+
+        );
+
+    }
+
+);
+
+register(
+
     "viewer-request",
 
     payload => {

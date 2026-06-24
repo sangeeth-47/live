@@ -50,6 +50,19 @@ const viewerView = {
 
         });
 
+        on("viewer:error", ({ code }) => {
+
+    if (code === "ROOM_NOT_FOUND") {
+
+        this.errorMessage =
+            "The room doesn't exist. Check the URL or room code, or ask the presenter for a new invitation link.";
+
+        this.showRoomNotFound();
+
+    }
+
+});
+
         on("livekit:ready", () => {
 
             this.showConnecting();
@@ -461,6 +474,48 @@ const viewerView = {
 
     },
 
+    showRoomNotFound() {
+
+    this.setStage(ViewerState.ROOM_NOT_FOUND);
+
+    this.content.innerHTML = `
+
+        <section class="viewer-card viewer-card--status">
+
+            <div class="viewer-badge viewer-badge--danger">
+
+                Room not found
+
+            </div>
+
+            <div class="viewer-status">
+
+                <h1>
+
+                    Unable to join this session
+
+                </h1>
+
+                <p>
+
+                    This invitation link or room code is invalid, has expired,
+                    or the session no longer exists.
+
+                </p>
+
+                <p>
+
+                    Please ask the presenter to send you a new invitation link.
+
+                </p>
+
+            </div>
+
+        </section>
+
+    `;
+
+},
     showRejected() {
 
         this.setStage(ViewerState.REJECTED);

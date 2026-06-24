@@ -12,6 +12,8 @@ export const ViewerState = Object.freeze({
 
     WATCHING: "watching",
 
-    REJECTED: "rejected"
+    REJECTED: "rejected",
+
+    ROOM_NOT_FOUND: "room-not-found"
 
 });
