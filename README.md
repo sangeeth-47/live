@@ -40,7 +40,7 @@ Viewers simply enter the room code, request access, and wait for presenter appro
 
 ### Presenter
 
-1. Open ScreenCode.
+1. Open ScreenShare.
 2. Create a new sharing session.
 3. Allow browser permission to capture your screen.
 4. Share the generated room code.
@@ -49,7 +49,7 @@ Viewers simply enter the room code, request access, and wait for presenter appro
 
 ### Viewer
 
-1. Open ScreenCode with shared URL.
+1. Open ScreenShare with shared URL.
 2. Enter the name.
 3. Send a join request.
 4. Wait for presenter approval.
