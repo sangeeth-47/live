@@ -1,0 +1,73 @@
+.card {
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    padding: var(--space-lg);
+
+    box-shadow: var(--shadow);
+
+}
+
+.btn {
+
+    background: var(--primary);
+
+    color: white;
+
+    border: none;
+
+    border-radius: var(--radius-sm);
+
+    padding: .8rem 1.2rem;
+
+    transition: var(--transition);
+
+}
+
+.btn:hover {
+
+    background: var(--primary-hover);
+
+}
+
+.badge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: .3rem .7rem;
+
+    border-radius: 999px;
+
+    font-size: .85rem;
+
+}
+
+.badge-default {
+
+    background: var(--surface-light);
+
+}
+
+.badge-success {
+
+    background: var(--success);
+
+}
+
+.badge-warning {
+
+    background: var(--warning);
+
+}
+
+.badge-danger {
+
+    background: var(--danger);
+
+}

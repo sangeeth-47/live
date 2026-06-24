@@ -1,0 +1,45 @@
+body{
+
+    font-family:
+
+        Inter,
+
+        system-ui,
+
+        sans-serif;
+
+    color:var(--text-primary);
+
+    background:
+
+        var(--background);
+
+}
+
+h1{
+
+    font-size:2rem;
+
+}
+
+h2{
+
+    font-size:1.4rem;
+
+}
+
+h3{
+
+    font-size:1.1rem;
+
+}
+
+p{
+
+    color:
+
+        var(--text-secondary);
+
+    line-height:1.6;
+
+}

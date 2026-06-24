@@ -1,0 +1,63 @@
+.presenter-dashboard {
+
+    position: relative;
+
+    min-height: 100vh;
+
+    display: grid;
+
+    gap: 1rem;
+
+    padding: clamp(1rem, 3vw, 1.5rem);
+
+    grid-template-columns: 280px 1fr 300px;
+
+    grid-template-rows: auto auto 1fr;
+
+    grid-template-areas:
+
+        "header header header"
+
+        "sidebar pending statistics"
+
+        "viewers viewers viewers";
+
+    background:
+
+        radial-gradient(circle at top left, rgba(37, 99, 235, .18), transparent 28%),
+
+        radial-gradient(circle at bottom right, rgba(14, 165, 233, .16), transparent 24%),
+
+        linear-gradient(180deg, #0f172a 0%, #0b1224 100%);
+
+}
+
+.presenter-dashboard::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background-image:
+
+        linear-gradient(rgba(148, 163, 184, .05) 1px, transparent 1px),
+
+        linear-gradient(90deg, rgba(148, 163, 184, .05) 1px, transparent 1px);
+
+    background-size: 42px 42px;
+
+    pointer-events: none;
+
+    opacity: .45;
+
+}
+
+.presenter-dashboard > * {
+
+    position: relative;
+
+    z-index: 1;
+
+}

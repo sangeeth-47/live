@@ -1,0 +1,57 @@
+:root {
+
+    /* Brand */
+
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+
+    --success: #16a34a;
+    --warning: #d97706;
+    --danger: #dc2626;
+
+    /* Background */
+
+    --background: #0f172a;
+    --surface: #1e293b;
+    --surface-light: #334155;
+
+    /* Text */
+
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+
+    /* Border */
+
+    --border: #475569;
+
+    /* Radius */
+
+    --radius-sm: 8px;
+    --radius: 12px;
+    --radius-lg: 20px;
+
+    /* Shadow */
+
+    --shadow:
+
+        0 10px 30px rgba(0,0,0,.30);
+
+    /* Spacing */
+
+    --space-xs: .25rem;
+    --space-sm: .5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+
+    /* Layout */
+
+    --header-height: 64px;
+
+    --sidebar-width: 300px;
+
+    /* Animation */
+
+    --transition: .25s ease;
+
+}

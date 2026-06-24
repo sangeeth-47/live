@@ -1,0 +1,53 @@
+.statistics-section {
+
+    grid-area: statistics;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1rem;
+
+    padding: 1.25rem;
+
+    border: 1px solid rgba(148, 163, 184, .16);
+
+    border-radius: 24px;
+
+    background: rgba(15, 23, 42, .72);
+
+    box-shadow: 0 18px 40px rgba(2, 6, 23, .22);
+
+    backdrop-filter: blur(18px);
+
+}
+
+.statistics-section ul {
+
+    display: grid;
+
+    gap: .75rem;
+
+    margin: 0;
+
+    padding: 0;
+
+    list-style: none;
+
+}
+
+.statistics-section li {
+
+    padding: .9rem 1rem;
+
+    border: 1px solid rgba(148, 163, 184, .14);
+
+    border-radius: 16px;
+
+    background: rgba(2, 6, 23, .28);
+
+    color: var(--text-secondary);
+
+}
+
+}
